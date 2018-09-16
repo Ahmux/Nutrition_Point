@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RemindersActivity"
+    android:background="#FFCC00">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/colorWhite"
+            android:elevation="10dp"
+            android:padding="5dp"
+            android:translationZ="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dp"
+                    android:gravity="center"
+                    android:text="WATER REMINDER"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:gravity="center"
+                    android:text="Set Reminder Period:"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/h4Btn"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="4 HOUR"
+                        android:textColor="#FFCC00" />
+
+                    <Button
+                        android:id="@+id/h2Btn"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="3dp"
+                        android:layout_weight="1"
+                        android:text="2 Hour" />
+
+                    <Button
+                        android:id="@+id/h1Btn"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="1 Hour" />
+
+                    <Button
+                        android:id="@+id/min30Btn"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="30 MIN"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/min15Btn"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="15 MIN" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/stopBtn"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:text="Stop Reminder"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/startBtn"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:text="Start Reminder"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

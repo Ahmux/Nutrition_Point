@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_reminder"
+            android:icon="@drawable/ic_menu_reminders"
+            android:title="Reminders" />
+        <item
+            android:id="@+id/nav_Recipes"
+            android:icon="@drawable/ic_menu_recipes"
+            android:title="Recipes" />
+        <item
+            android:id="@+id/nav_calculate"
+            android:icon="@drawable/ic_menu_calculate"
+            android:title="Calculate Calories" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/ic_menu_facebook"
+                android:title="Facebook Page" />
+            <item
+                android:id="@+id/nav_twitter"
+                android:icon="@drawable/ic_menu_twitter"
+                android:title="Twitter" />
+        </menu>
+    </item>
+
+</menu>

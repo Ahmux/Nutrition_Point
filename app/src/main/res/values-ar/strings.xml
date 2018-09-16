@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NutritionPoint</string>
+    <string name="action_about">من نحن</string>
+    <string name="choose_gender">اخـتر النـوع؟</string>
+    <string name="male">ذكر</string>
+    <string name="female">انثى</string>
+    <string name="start_body_analysis">ابدأ تحليل البيانات</string>
+    <string name="action_language">English</string>
+    <string name="health_monitor">HEALTH MONITOR</string>
+    <string name="your_profile_summary">ملخص البيانات</string>
+    <string name="show_analysis">عرض البيانات</string>
+    <string name="restart_body_analysis">اعادة تحليل البيانات</string>
+    <string name="doubleBackToast">برجاء الضغط مرة اخرى للخروج</string>
+    <string name="healthy_recipes">وصفات اكل صحية</string>
+
+    <string name="notification_text"> التذكير بشرب كوب من الماء </string>
+    <string name="notification_string">تذكير شرب الماء</string>
+    <string name="reminders_title">ضبط التنـبيـهات</string>
+    <string name="years">سنة</string>
+    <string name="kg">كيلوجرام</string>
+    <string name="Male">ذكر</string>
+    <string name="Female">انثى</string>
+    <string name="age">السن</string>
+    <string name="weight">الوزن</string>
+    <string name="height">الطول</string>
+    <string name="analyze_data">تحليل المعلومات</string>
+
+</resources>
